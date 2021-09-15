@@ -1,0 +1,39 @@
+:root{}
+
+*{}
+
+body{}
+
+header {}
+/* Greeting */
+h1 {}
+/* navigation bar */
+nav{}
+
+/* Work samples */
+main {}
+
+/* About me section */
+aside {}
+
+/* Links to email and other pages */
+footer{}
+
+/* Format my name specifically */
+#myName {}
+
+/* card */
+.card{}
+
+/* This will make app 1 larger than others */
+.one{}
+
+/* Media query for tablets */
+@media screen and() {
+    
+}
+
+/* Media query for mobile */
+@media screen and() {
+    
+}
