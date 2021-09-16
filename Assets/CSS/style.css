@@ -36,12 +36,12 @@ h1 {
 /* Format my photograph */
 .me{
     margin: 0;
-    width: 400px;
-    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
     border: solid black 1px;
     border-radius: 45px;
     opacity: 95%;
-    flex: 0 1 auto;
+    flex: 0 1 400px;
 }
 
 /* Format my name specifically */
@@ -82,9 +82,12 @@ display: flex;
 
 /* About me section */
 aside {
+    background: rgb(181, 235, 218);
     order: 1;
     width: 33%;
 }
+
+
 /* Work samples */
 main {
     order: 2;
@@ -116,15 +119,86 @@ main {
 }
 
 /* Links to email and other pages */
-footer{}
-
+footer{
+    background: rgb(188, 200, 240);
+    border-top: solid rgb(12, 20, 44) 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer div{
+    
+    margin: 2%;
+    padding: 1%;
+}
 
 /* Media query for tablets */
-@media screen and() {
+@media screen and (max-width:768px) {
+   header{
+       
+   }
+   
+    h1 {
+       
+    }
+    /* Format my photograph */
+    .me{
+       
+             
+    }
     
+    /* Format my name specifically */
+    #myName {
+       
+    }
+    nav{
+       
+    }
+    .navigator{
+    
+    }
+    
+    /* layout for aside and main through class content */
+    .content{
+    
+    }
+    
+    /* About me section */
+    aside {
+       
+    }
+    /* Work samples */
+    main {
+       
+    }
+    
+    /* This will make app 1 larger than others */
+    #one{
+       
+    }
+    
+    /* card */
+    .card{
+       
+    }
+    
+    #mineral{
+       
+    }
+    
+    /* Links to email and other pages */
+    footer{}
 }
 
 /* Media query for mobile */
-@media screen and() {
-    
+@media screen and(max-width:768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
