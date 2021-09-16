@@ -3,7 +3,7 @@
 }
 
 *{
-    border: solid black 1px;
+    /* border: solid black 1px; */
     opacity: 98%;
 }
 
@@ -31,6 +31,7 @@ h1 {
     height: fit-content;
     font-family: 'Lora', serif;
     font-size: 32pt;
+    flex: 1 1 auto;
 }
 /* Format my photograph */
 .me{
@@ -40,6 +41,7 @@ h1 {
     border: solid black 1px;
     border-radius: 45px;
     opacity: 95%;
+    flex: 0 1 auto;
 }
 
 /* Format my name specifically */
@@ -57,6 +59,7 @@ h1 {
 /* navigation bar */
 nav{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     background-color: rgb(97, 168, 143);
     padding: 1% 1% 1% 3%;
@@ -66,27 +69,55 @@ nav{
     font-weight: bolder;
     color: white;
 }
+/* navigation links */
+.navigator{
+    flex: 0 .5 auto;
+}
 
-/* Work samples */
-main {
-    
+/* layout for aside and main through class content */
+.content{
+display: flex;
 
 }
 
 /* About me section */
-aside {}
+aside {
+    order: 1;
+    width: 33%;
+}
+/* Work samples */
+main {
+    order: 2;
+    width: 67%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* This will make app 1 larger than others */
+#one{
+    order: 1;
+     width: 50%;
+    flex: 1 1 300px;
+}
+
+/* card */
+.card{
+    order: 2;
+    flex: 0 2 200px;
+    width: 25%;
+}
+
+#mineral{
+    transform: rotate(90deg);
+    margin: 0;
+}
 
 /* Links to email and other pages */
 footer{}
 
-
-
-
-/* card */
-.card{}
-
-/* This will make app 1 larger than others */
-.one{}
 
 /* Media query for tablets */
 @media screen and() {
