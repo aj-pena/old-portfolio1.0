@@ -1,96 +1,78 @@
-# 02 Advanced CSS: Portfolio
+## <Portfolio>
 
-## Your Task
+## Table of Contents
 
-Welcome to this week's homework! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [GitHub](#github)
+  - [Features](#features)
+  - [Tests](#tests)
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+## Description
 
-With these points in mind, in this homework you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+Hey there! You have reached the repository for my Portfolio Page.
+In this page, I present some of the web applications I have been working and the skills I am developing.
+This page is meant to work as a routing page that briefly describes each project and directs you to the deployed pages.
+I hope you enjoy it!
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+To tell you a bit about myself, I have 8 years of local and international experience in transportation planning and engineering, including research and policy formulation. I have taken formal training in ArcMap, Vissim, AutoCAD, Revit and Photoshop. In previous positions, I performed with MS Office, ArcMap, Vissim, Synchro, and Stata. Lately, I have decided to have a transition in my career that allows me to have a better lifestyle. I enjoy the little pleasures in life, having a flexible schedule, working from home and a nice ergonomic chair with a sitting standing desk... and I also enjoy drawing.
 
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first homework, we follow the AS AN / I WANT / SO THAT format. 
+Some of my current learnings for this project are:
 
+    I will need to try other ways to make the flex items and the media queries to work. So far the things I have tried have not yielded the results I expected. I believe I have to review the flex items behaviors.
+    Also, I still have to include pseudo classes and pseudo elements. 
 
-## User Story
-
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
-
-
-## Acceptance Criteria
-
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
+Will continue to work in this during the weekend so as to not lag behind.
 
 
-## Mock-Up
+## Installation
 
-The following animation shows the web application's appearance and functionality:
+No installation is needed. This application is run in a live webpage.
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+## Usage
+
+To use this application, go to the deployed webpage by followig this link: [Visit the deployed page](https://aj-pena.github.io/Andres-Pena-Portfolio/)
+
+![Image of the Landing Page]( "Landing Page")
+
+Once in the landing page, go to the ________ and click on the ____________________ to ________________.
+
+![Image of a project card]()
+
+You will also find links to the GitHub repository for each of the displayed projects, in case you want to learn more about it.
+
+Once in the project/app page, feel free to inspect and explore it!
+![Image of a project webpage]()
 
 
-## Grading Requirements
+## Credits
 
-This homework is graded based on the following criteria: 
+Third-party assets:
+- [Bootstrap](https://getbootstrap.com/)
+- [fontawesome](https://fontawesome.com/)
+- [npm](https://www.npmjs.com/)
 
-### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the above acceptance criteria.
+Reference material:
+- [w3schools](https://www.w3schools.com/)
+- [StackOverflow](https://stackoverflow.com/)
+- [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 
-### Deployment: 32%
+- [CSS-TRICKS guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-* Application deployed at live URL.
 
-* Application loads with no errors.
+## GitHub
 
-* Application GitHub URL submitted.
+If you want to know more details, feel free to [visit the repo](https://github.com/aj-pena/Andres-Pena-Portfolio.git)
 
-* GitHub repository contains application code.
 
-### Application Quality: 15%
+## Features
 
-* Application resembles the mock-up functionality provided in the homework instructions.
+FrontEnd:
+- Bootstrap grid, cards, forms and dropdowns
+- Google Fonts and Fontawesome fonts and icons
+- HTML
+- CSS and Flexbox
 
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
